@@ -2,7 +2,7 @@ import { BaseEntity, Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 import { IBlog } from '../../domain/IBlog';
 
 @Entity()
-export class Blog implements IBlog {
+export class Blog extends BaseEntity implements IBlog {
     @PrimaryGeneratedColumn()
     id!: number;
 

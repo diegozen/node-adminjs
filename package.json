@@ -22,8 +22,13 @@
         "typescript": "^4.6.2"
     },
     "dependencies": {
+        "@adminjs/express": "^4.1.0",
+        "@adminjs/typeorm": "^2.0.2",
+        "adminjs": "^5.7.3",
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
+        "express-formidable": "^1.2.0",
+        "express-session": "^1.17.2",
         "inversify": "^6.0.1",
         "pg": "^8.7.3",
         "reflect-metadata": "^0.1.13",
